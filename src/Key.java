@@ -93,6 +93,16 @@ public class Key {
 	}
 
 	/**
+	 * Returns whether this key is on.
+	 * @return whether this key is on.
+	 */
+
+	public boolean isPlaying () {
+		return _isOn;
+
+	}
+
+	/**
 	 * Returns a String representation describing the key.
 	 * @return a String representation describing the key.
 	 */
